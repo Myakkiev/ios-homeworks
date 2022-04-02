@@ -9,22 +9,12 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
-    @IBOutlet weak var nameLabel: UILabel!
-    
-    @IBOutlet weak var birthLabel: UILabel!
-     
-    @IBOutlet weak var cityLabel: UILabel!
-  
-    
-    @IBOutlet weak var avaImage: UIImageView!
-    
-    
-    @IBOutlet weak var myText: UITextView!
+    @IBOutlet weak var myCustomView: ProfileView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        myCustomView.nameLabel.text = "Name"
     }
     
 

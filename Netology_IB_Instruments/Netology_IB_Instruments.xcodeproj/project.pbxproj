@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6369C7F027F8D1D80075AC83 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369C7EF27F8D1D80075AC83 /* ProfileView.swift */; };
 		63DEDB5427EC7FE7001558F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEDB5327EC7FE7001558F9 /* AppDelegate.swift */; };
 		63DEDB5627EC7FE7001558F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEDB5527EC7FE7001558F9 /* SceneDelegate.swift */; };
 		63DEDB5827EC7FE7001558F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEDB5727EC7FE7001558F9 /* ViewController.swift */; };
@@ -14,12 +15,12 @@
 		63DEDB5D27EC7FED001558F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DEDB5C27EC7FED001558F9 /* Assets.xcassets */; };
 		63DEDB6027EC7FED001558F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DEDB5E27EC7FED001558F9 /* LaunchScreen.storyboard */; };
 		63DEDB6A27ECF1CC001558F9 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63DEDB6927ECF1CC001558F9 /* ProfileView.xib */; };
-		63DEDB6E27ECF71E001558F9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEDB6D27ECF71E001558F9 /* ProfileView.swift */; };
 		63DEDB7027ECF7DC001558F9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEDB6F27ECF7DC001558F9 /* ProfileViewController.swift */; };
 		63DEDB7227ECFA12001558F9 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DEDB7127ECFA12001558F9 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6369C7EF27F8D1D80075AC83 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		63DEDB5027EC7FE7001558F9 /* Netology_IB_Instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netology_IB_Instruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DEDB5327EC7FE7001558F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63DEDB5527EC7FE7001558F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		63DEDB5F27EC7FED001558F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63DEDB6127EC7FED001558F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DEDB6927ECF1CC001558F9 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
-		63DEDB6D27ECF71E001558F9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		63DEDB6F27ECF7DC001558F9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		63DEDB7127ECFA12001558F9 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +72,7 @@
 				63DEDB5E27EC7FED001558F9 /* LaunchScreen.storyboard */,
 				63DEDB6127EC7FED001558F9 /* Info.plist */,
 				63DEDB6927ECF1CC001558F9 /* ProfileView.xib */,
-				63DEDB6D27ECF71E001558F9 /* ProfileView.swift */,
+				6369C7EF27F8D1D80075AC83 /* ProfileView.swift */,
 				63DEDB6F27ECF7DC001558F9 /* ProfileViewController.swift */,
 				63DEDB7127ECFA12001558F9 /* Profile.storyboard */,
 			);
@@ -152,9 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DEDB6E27ECF71E001558F9 /* ProfileView.swift in Sources */,
 				63DEDB5827EC7FE7001558F9 /* ViewController.swift in Sources */,
 				63DEDB7027ECF7DC001558F9 /* ProfileViewController.swift in Sources */,
+				6369C7F027F8D1D80075AC83 /* ProfileView.swift in Sources */,
 				63DEDB5427EC7FE7001558F9 /* AppDelegate.swift in Sources */,
 				63DEDB5627EC7FE7001558F9 /* SceneDelegate.swift in Sources */,
 			);

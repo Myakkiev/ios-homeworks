@@ -8,13 +8,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="Netology_IB_Instruments" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target">
             <connections>
-                <outlet property="avaImage" destination="T9z-FQ-RaY" id="AlG-ix-LPm"/>
-                <outlet property="birthLabel" destination="76P-W8-lIi" id="n8P-Ik-ixY"/>
-                <outlet property="cityLabel" destination="egP-uz-D0U" id="Bjd-gq-X6T"/>
-                <outlet property="myText" destination="OVd-X1-gzT" id="oKK-lc-drY"/>
-                <outlet property="nameLabel" destination="9Ax-Di-QdY" id="ys6-gx-VGP"/>
+                <outlet property="avaImage" destination="T9z-FQ-RaY" id="SWx-4b-y3q"/>
+                <outlet property="birthLabel" destination="76P-W8-lIi" id="dk8-tT-Agl"/>
+                <outlet property="cityLabel" destination="egP-uz-D0U" id="t11-bq-4oj"/>
+                <outlet property="myText" destination="OVd-X1-gzT" id="pxa-t4-boV"/>
+                <outlet property="nameLabel" destination="9Ax-Di-QdY" id="4Eu-qf-Jr4"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
